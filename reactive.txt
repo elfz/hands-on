@@ -1,0 +1,42 @@
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        
+Server Hostname:        localhost
+Server Port:            8082
+
+Document Path:          /reactive/tweets
+Document Length:        139 bytes
+
+Concurrency Level:      10000
+Time taken for tests:   13.469 seconds
+Complete requests:      40000
+Failed requests:        0
+Total transferred:      9480000 bytes
+HTML transferred:       5560000 bytes
+Requests per second:    2969.77 [#/sec] (mean)
+Time per request:       3367.265 [ms] (mean)
+Time per request:       0.337 [ms] (mean, across all concurrent requests)
+Transfer rate:          687.34 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  160 503.8      0    3060
+Processing:   415 2867 710.1   3011    4019
+Waiting:      415 2858 707.2   3009    3961
+Total:        664 3027 877.2   3040    7007
+
+Percentage of the requests served within a certain time (ms)
+  50%   3040
+  66%   3381
+  75%   3435
+  80%   3500
+  90%   3671
+  95%   4147
+  98%   6080
+  99%   6384
+ 100%   7007 (longest request)
